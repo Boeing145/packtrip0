@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #222; 
+  color: #fff;         
+}
+
+.cart-icon {
+  width: 40px;
+}
+.profile-icon {
+  width: 30px;
+}
+.cart-icon,.profile-icon {
+object-fit: contain;
+vertical-align: middle;
+}
+.box-icon {
+  width: 250px;
+}
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0rem;
+}
+
+.container2 {
+  padding-left: 18rem; /* เพิ่มระยะห่างจากขอบซ้าย */
+  margin-left: auto; /* หรือใช้ margin-left */
+  margin-right: auto; /* จัดให้อยู่ตรงกลาง */
+}
+
+nav {
+  background-color: #00bf63;
+  padding: 1rem 0;
+}
+
+.nav-con {
+  display: flex;
+  justify-content: space-between; /* โลโก้ซ้าย เมนูขวา */
+  align-items: center;
+}
+
+.packtrip a {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.tabmenu {
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+}
+
+.tabmenu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.tabmenu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease; 
+}
+
+.tabmenu li a:hover {
+  color: #FFD700; 
+}
+h1 {
+  margin-top: 2rem; 
+  font-size: 2.5rem;
+  color: #dfab31;
+  text-align: center;
+}
+.item-group {
+  margin-left: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.item-group p {
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+  max-width: 900px;
+}
+
+.item-group p:hover {
+  background-color: #333;
+}
+
+h2 {
+  color: #00bf63;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+  padding-left: 1rem;
+  border-left: 4px solid #00bf63;
+}
