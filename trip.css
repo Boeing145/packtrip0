@@ -219,3 +219,16 @@
     padding: 0.8rem 1.2rem; 
     font-size: 1rem;
   }
+
+  /* ปรับปุ่มใน .menu และ .event-menu ให้เรียงในแนวตั้ง */
+  .menu, .event-menu {
+    flex-direction: column; /* เปลี่ยนเป็นแนวตั้ง */
+    gap: 1rem; /* เพิ่มระยะห่างระหว่างปุ่ม */
+    align-items: center; /* จัดให้อยู่ตรงกลาง */
+  }
+
+  .menu a, .event-btn {
+    width: 100%; /* ให้ปุ่มเต็มความกว้าง */
+    max-width: 300px; /* จำกัดความกว้างสูงสุด */
+  }
+}
